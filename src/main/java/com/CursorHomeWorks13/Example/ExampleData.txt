@@ -1,0 +1,17 @@
+Data for filling the "Shop" array with objects during testing (Postman):
+
+{
+    "name": "Bike",
+    "description": "For 5-10 years old",
+    "price": 112.5
+}
+{
+    "name": "Car",
+    "description": "From 2 to 5 years old",
+    "price": 253.0
+}
+{
+    "name": "Skate",
+    "description": "Over 14 years old",
+    "price": 56.4
+}
