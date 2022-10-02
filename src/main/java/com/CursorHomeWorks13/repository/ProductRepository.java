@@ -1,6 +1,6 @@
-package com.CursorHomeWorks13.Rrepository;
+package com.CursorHomeWorks13.repository;
 
-import com.CursorHomeWorks13.Entity.Product;
+import com.CursorHomeWorks13.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

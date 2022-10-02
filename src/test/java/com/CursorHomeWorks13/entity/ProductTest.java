@@ -1,4 +1,4 @@
-package com.CursorHomeWorks13.Entity;
+package com.CursorHomeWorks13.entity;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
@@ -13,12 +13,11 @@ class ProductTest {
     void testConstructor() {
         BigDecimal valueOfResult = BigDecimal.valueOf(42L);
         Product actualProduct = new Product("Name", "The characteristics of someone or something", valueOfResult);
-
+        BigDecimal price = actualProduct.getPrice();
+        assertNull(actualProduct.getVersion());
         assertEquals("The characteristics of someone or something", actualProduct.getDescription());
         assertEquals("Product(id=0, name=Name, description=The characteristics of someone or something, price=42,"
                 + " version=null)", actualProduct.toString());
-        assertNull(actualProduct.getVersion());
-        BigDecimal price = actualProduct.getPrice();
         assertSame(valueOfResult, price);
         assertEquals("Name", actualProduct.getName());
         assertEquals(0L, actualProduct.getId());
@@ -28,4 +27,3 @@ class ProductTest {
         assertSame(price, valueOfResult);
     }
 }
-

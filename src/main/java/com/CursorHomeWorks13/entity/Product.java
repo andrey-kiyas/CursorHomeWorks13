@@ -1,4 +1,4 @@
-package com.CursorHomeWorks13.Entity;
+package com.CursorHomeWorks13.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

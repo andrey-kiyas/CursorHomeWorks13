@@ -1,7 +1,7 @@
-package com.CursorHomeWorks13.Controller;
+package com.CursorHomeWorks13.controller;
 
-import com.CursorHomeWorks13.Entity.Product;
-import com.CursorHomeWorks13.Rrepository.ProductRepository;
+import com.CursorHomeWorks13.entity.Product;
+import com.CursorHomeWorks13.repository.ProductRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
