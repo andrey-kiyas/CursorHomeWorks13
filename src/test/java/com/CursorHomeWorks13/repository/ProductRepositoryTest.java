@@ -49,8 +49,8 @@ class ProductRepositoryTest {
         product.setPrice(testProduct().getPrice());
         product.setDescription(testProduct().getDescription());
         productRepository.save(product);
-        List<Product> productResult = new ArrayList<>(productRepository.findAll());
-        assertEquals(productResult.size(), 1);
+        List<Product> productFind = new ArrayList<>(productRepository.findAll());
+        assertEquals(productFind.size(), 1);
     }
 
     @Test
